@@ -13,7 +13,7 @@ class NumbersList extends Component {
 
   render() {
     let entries = []
-    for (let i = 1; i < this.props.num; i++) {
+    for (let i = 1; i <= this.props.num; i++) {
       entries.push(this.fizzBuzz(i))
     }
     return (
